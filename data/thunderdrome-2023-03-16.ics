@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//SabreDAV//SabreDAV//EN
+X-WR-CALNAME:Thunderdrome
+X-APPLE-CALENDAR-COLOR:#93B27B
+REFRESH-INTERVAL;VALUE=DURATION:PT4H
+X-PUBLISHED-TTL:PT4H
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20230306T160448Z
+DTSTAMP:20230306T160900Z
+LAST-MODIFIED:20230306T160900Z
+SEQUENCE:2
+UID:c09508e0-2399-4eed-8b53-261f3c2e082d
+DTSTART;TZID=Europe/Paris:20230925T140000
+DTEND;TZID=Europe/Paris:20231001T220000
+STATUS:CONFIRMED
+SUMMARY:MICRO CONTACT #2 
+DESCRIPTION:2ème édition de notre festival de Lutherie Sauvage à Crest..
+ .
+LOCATION:Crest 26400
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230305T093414Z
+DTSTAMP:20230305T093545Z
+LAST-MODIFIED:20230305T093545Z
+SEQUENCE:2
+UID:e61f83c6-22cc-419d-afdf-27350a4197c6
+DTSTART;TZID=Europe/Paris:20230308T140000
+DTEND;TZID=Europe/Paris:20230308T180000
+STATUS:CONFIRMED
+DESCRIPTION:Ce mercredi 8 mars 2023\, le collectif Micro Contact te convie 
+ à un atelier "Circuit Bending" transformation de vieux jouets électroniq
+ ues en instruments de musique à L'Or des Bennes !\nDe 8 à 88 ans\, de 14
+ h à 18h. \nL'atelier est à prix libre\, et limité à 8 participants. \n
+ Réservation au 06 86 58 45 93
+LOCATION:L'Or des Bennes à Crest 
+SUMMARY:Atelier Circuit Bending
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230314T162839Z
+DTSTAMP:20230315T083558Z
+LAST-MODIFIED:20230315T083558Z
+SEQUENCE:5
+UID:9da69f8d-be54-471b-9d30-d756d4709b10
+DTSTART;TZID=Europe/Paris:20230330T190000
+DTEND;TZID=Europe/Paris:20230330T235500
+STATUS:CONFIRMED
+SUMMARY:Concert Wirlklich Pipite + Aerobiconoise + 306 OK
+LOCATION:L'Antre chien et loups / 07250 Rompon
+DESCRIPTION:Youpi !\nOuverture des portes à 19h30\, entrée prix libre\, b
+ ar sur place..\nOn profite de la tournée qu'organisent Aerobiconoise et W
+ irlklich Pipite autour du festival Sonic Protest pour les faire jouer à l
+ a maison ! et en plus on projette le film de Sebastien Magne\, 306 OK !\nP
+ as de chiens\, pas de spams humains !\nPlus d'infos via lantrechienetloups
+  at gmail.com\n\nhttps://aerobiconoise.tumblr.com/\nhttps://wirklich-pipit
+ .bandcamp.com/album/toi-ma-ptite-folie\nhttps://www.youtube.com/watch?v=t0
+ tTYdxiGRE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230315T082945Z
+DTSTAMP:20230315T083454Z
+LAST-MODIFIED:20230315T083454Z
+SEQUENCE:3
+UID:e6c9c719-e771-43fe-b84d-5da66603dbfc
+DTSTART;TZID=Europe/Paris:20230315T200000
+DTEND;TZID=Europe/Paris:20230315T235500
+STATUS:CONFIRMED
+LOCATION:L'Antre chien et loups / 07250 Rompon
+DESCRIPTION:Sortie de résidence !\nouverture portes 20h\, lives 21h\ninfos
+  : lantrechienetloups at gmail.com\n\nDebaz nous présentera son nouveau l
+ ive travaillé durant sa résidence ces derniers jours\, et on aura aussi 
+ le plaisir de pouvoir écouter Jadis 3000 en première partie !\n\nhttps:/
+ /soundcloud.com/de-baz\n https://nulsidecouvert.bandcamp.com/album/in-sili
+ co\n\nEntrée prix libre pour les artistes\, \nPas de buvette ce soir donc
+  ramènes de quoi t'hydrater et te sustenter !\n
+SUMMARY:Sortie de résidence : Concerts Debaz + Jadis 3000
+END:VEVENT
+END:VCALENDAR
